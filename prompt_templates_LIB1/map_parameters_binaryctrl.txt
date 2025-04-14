@@ -1,0 +1,19 @@
+*** Instruction ***
+Map the following I/O signal list entry to exactly one of the available function block parameters. Select the most fitting parameter according to 1) intended function, 2) direction, 3) type. Pick the best parameter if multiple appear close. Ignore colums or details in the I/O signal list entry that do not affect the mapping. If no parameter fits, print out "n/a".
+
+*** Available Function Blocks Parameters (name, type, direction, description) *** 
+Activate, bool, out, command signal "activate" or actuate opening
+Deactivate, bool, out, command signal "deactivate" or actuate closing
+FeedbackActivated, bool, in, feedback signal motor activated or valve opened or pump operational
+FeedbackDeactivated, bool, in, feedback signal motor deactivated or valve closed or pump non-operational
+AlarmOverload, bool, in_out, alarm signal overload
+AlarmTemperature, bool, in_out, alarm signal temperature too high
+AlarmGeneralFault, bool, in_out, alarm signal general fault or unknown fault or system fault
+RemoteCtrlEnabled, bool, in, configuration input signal whether local or remote control active
+
+*** Output Format ***
+As answer you must only print out the function block parameter name, e.g., "Activate" or "RemoteCtrlEnabled", or "n/a" if no parameter matches. Provide no explanations.
+
+*** I/O signal list to process ***
+These are the column headings: {header}
+These is the signal list entry: {content}

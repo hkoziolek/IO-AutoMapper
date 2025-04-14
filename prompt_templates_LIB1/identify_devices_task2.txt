@@ -1,0 +1,6 @@
+Check across *all* entries in the following JSON data whether in combination they refer to a PUMP, VALVE, COMPRESSOR, FAN, VFD, HEATER, MIXER, CONVEYOR, or OTHER.
+
+Return the same structure, but add a 'deviceType' field. Each entry must have the same device type. Maintain original indentation, spacing, line breaks, and double quotes. Provide no explanations.
+
+JSON:
+{content}

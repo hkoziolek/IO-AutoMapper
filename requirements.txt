@@ -1,0 +1,6 @@
+langchain==0.3.21
+langchain_openai==0.3.11
+langsmith==0.3.19
+pandas>=1.0.0
+python-dotenv==1.1.0
+xlsxwriter>=1.2.0

@@ -1,0 +1,13 @@
+Check the signal type and direction of the input given below and map it to exactly one of the following:
+
+AnalogIn_FB: analog input signal
+AnalogOut_FB: analog output signal
+DigitalIn_FB: digital input signal
+DigitalOut_FB: digital output signal
+
+Only print out the matching signal type name (e.g., AnalogIn_FB), provide no explanations.
+Follow the type names exactly, do not print out incomplete names like AnalogIn, DigitalOut.
+
+Input:
+{header}
+{content}

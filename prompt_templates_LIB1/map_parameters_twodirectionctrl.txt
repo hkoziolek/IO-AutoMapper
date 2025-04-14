@@ -1,0 +1,23 @@
+*** Instruction ***
+Map the following I/O signal list entry to exactly one of the available function block parameters. Select the most fitting parameter according to 1) intended function, 2) direction, 3) type. Pick the best parameter if multiple appear close. Ignore colums or details in the I/O signal list entry that do not affect the mapping. If no parameter fits, print out "n/a".
+
+*** Available Function Blocks Parameters (name, type, direction, description) *** 
+ActivateForward, bool, out, command signal "activate to run forward"
+ActivateBackward, bool, out, command signal "activate to run backward"
+Deactivate, bool, out, command signal "deactivate"
+FeedbackActivatedForward, bool, in, feedback signal motor activated to run forward
+FeedbackActivatedBackward, bool, in, feedback signal motor activated to run backward
+FeedbackDeactivated, bool, in, feedback signal motor deactivated
+AlarmOverload, bool, in_out, alarm signal overload
+AlarmTemperature, bool, in_out, alarm signal temperature too high
+AlarmGeneralFault, bool, in_out, alarm signal general fault or unknown fault or system fault
+RemoteCtrlEnabled, bool, in, configuration signal whether local or remote control enabled
+
+*** Output Format ***
+As answer you must only print out the function block parameter name, 
+e.g., "ActivateForward" or "RemoteCtrlEnabled", or "n/a" if no parameter matches. 
+Provide no explanations.
+
+*** I/O signal list to process ***
+These are the column headings: {header}
+These is the signal list entry: {content}

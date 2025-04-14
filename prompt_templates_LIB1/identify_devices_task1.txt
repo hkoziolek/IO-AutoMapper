@@ -1,0 +1,18 @@
+Please parse the input given below and output JSON with the following structure:
+
+[
+  {{
+    "rowNumber": 123,
+    "tag": "XYZ-123",
+    "system": "THRUSTER SYSTEM"
+    "deviceDescription": "PUMP SYSTEM 1",
+    "signalDescription": "LUBRICATION PUMP START"
+  }},
+  ...
+]
+
+The row number is the first number before the colon.
+Output only the data structure, nothing else.
+
+{header}
+{content}

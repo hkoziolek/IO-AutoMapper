@@ -1,0 +1,18 @@
+Check across *all* rows of the given input whether:
+- "start" and "stop" both appear among 'keywordsFound' 
+- or if "opened" and "closed" both appear
+- or if "open" and "close" both appear
+- or if "opening" and "closing" both appear
+- or if "activate" and "deactivate" both appear
+- or if "initiate" and "terminate" both appear
+- or if "initiate" and "cease" both appear
+- or if "initiate" and "halt" both appear
+- or if "forward" and "reverse"
+
+If any of these conditions is met for a PUMP, VALVE, FAN, VFD, COMPRESSOR, HEATER, MIXER, CONVEYOR then mark *all* rows of that device as "qualifies": "yes". 
+Otherwise, "no". 
+
+Input JSON:
+{content}
+
+Return the same list in JSON, but add a key "qualifies" with "yes" or "no" for each row. Provide no explanations.

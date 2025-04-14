@@ -1,0 +1,14 @@
+From the JSON with qualified_data below, gather rows where "qualifies": "no". 
+Create groups for these rows individually:
+[
+  {{
+    "tag": "...",
+    "startRow": ...,
+    "endRow": ...
+  }}
+]
+Then combine them with the existing "row_device_mapping". 
+Return a single JSON list of all group objects (qualifying and non-qualifying). Provide no explanations.
+Input data:
+- qualified_data: {content}
+- row_device_mapping: {header}

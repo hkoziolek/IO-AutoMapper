@@ -1,0 +1,21 @@
+Group all rows that have "qualifies": "yes"
+- Find the minimum rowNumber and call that "start row".
+- Find the maximum rowNumber and call that "end row".
+- Return a list of objects: 
+  [
+    {{
+      "tag": "...",
+      "startRow": ...,
+      "endRow": ...
+    }},
+    ...
+  ]
+
+For a group use as tag the common prefix of all tags of the group (e.g., 123-AB100 for 123-AB100-UA1, 123-AB100-UX).
+If a device has multiple sets of qualifying rows that do not overlap, merge them into a single continuous block if they do overlap, or create separate blocks if they don't. 
+Non-overlapping blocks are allowed only if there's a gap in rowNumber.
+Output only the grouping in JSON. No explanations.
+
+Input JSON:
+{content}
+

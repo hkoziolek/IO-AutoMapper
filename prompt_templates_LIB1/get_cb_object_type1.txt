@@ -1,0 +1,12 @@
+Check the signal type and direction of the input given below and map it to exactly one of the following:
+
+AnalogIn: analog input signal
+AnalogOut: analog output signal
+DigitalIn: digital input signal
+DigitalOut: digital output signal
+
+Only print out the matching signal type name (e.g., AnalogIn), provide no explanations.
+
+Input:
+{header}
+{content}

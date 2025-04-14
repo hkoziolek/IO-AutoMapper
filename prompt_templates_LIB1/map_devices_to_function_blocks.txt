@@ -1,0 +1,16 @@
+*** Instruction ***
+Map the following I/O signal list to exactly one of the available function blocks. Check the provided descriptions and select the most fitting function block. All signals shall be assigned to the same function block.
+
+*** Available Function Blocks (name: description) *** 
+BinaryCtrl: to control an on/off actuator (e.g. valve, breaker, pump, hvac, motor, fan)
+TwoDirectionCtrl: to control a motor with two directions (e.g., forward, backward)
+VFDCtrl: to control a variable frequency drive with a configurable speed
+ThreePositionCtrl: to control a valve with three positions (e.g., opened, intermediate, closed). Do not use for valves with two positions, e.g., only opend or closed.
+AnalogCtrl: to control an analog actuator with analog position feedback
+
+*** Output Format ***
+As answer only print out the function block name, e.g., "BinaryCtrl" or "ThreePositionCtrl". Provide no explanations.
+
+*** I/O signal list to process ***
+These are the column headings: {header}
+These are the rows: {content}

@@ -1,0 +1,18 @@
+*** Instruction ***
+Map the following I/O signal list entry to exactly one of the available function block parameters. Select the most fitting parameter according to 1) intended function, 2) direction, 3) type. Pick the best parameter if multiple appear close. Ignore colums or details in the I/O signal list entry that do not affect the mapping. If no parameter fits, print out "n/a".
+
+*** Available Function Blocks Parameters (name, type, direction, description) *** 
+SetControlSignal, real, out, set desired position of actuator or control signal 
+Activate, bool, out, command signal "activate" move actuator to desired position
+Deactivate, bool, out, command signal "deactivate"
+FeedbackControlSignal, real, in, feedback signal current control signal or measured sensor data
+FeedbackActivated, bool, in, feedback signal activated or operation status
+FeedbackDeactivated, bool, in, feedback signal deactivated
+AlarmGeneralFault, bool, in_out, alarm signal general fault or unknown fault or system fault
+
+*** Output Format ***
+As answer you must only print out the function block parameter name, e.g., "SetControlSignal" or "Activate", or "n/a" if no parameter matches. Provide no explanations.
+
+*** I/O signal list to process ***
+These are the column headings: {header}
+These is the signal list entry: {content}

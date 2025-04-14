@@ -1,0 +1,6 @@
+For each item in the JSON below, identify if it contains any of:
+'start', 'stop', 'open', 'opened', 'closed', 'opening', 'closing', 'position', 'run', 'running', 'activate', 'deactivate', 'initiate', 'halt', 'terminate', 'cease', 'actuate', 'forward', 'reverse'.
+Create a new field 'keywordsFound' as an array of the matches. Do not match any other terms. Provide no explanations.
+
+JSON:
+{content}

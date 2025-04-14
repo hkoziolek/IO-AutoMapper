@@ -1,0 +1,301 @@
+Reference,Analog/Digital,Connection,Eng. Unit,Module,Device,I/O Function,Cabinet Mapping,P&ID,Module Reference,Low Range,High Range
+1290-CA0001_XST,DO,24 VDC,N/A,Air compression,Compressor Unit,Start compressor,DO01-02,P&ID-028,2-001,N/A,N/A
+1290-CA0001_XSP,DO,24 VDC,N/A,Air compression,Compressor Unit,Stop compressor,DO01-03,P&ID-028,2-001,N/A,N/A
+1290-CA0001_XRN,DI,24 VDC,N/A,Air compression,Compressor Unit,Running status,DI01-04,P&ID-028,2-001,N/A,N/A
+1290-CA0001_XPFA,DI,24 VDC,N/A,Air compression,Compressor Unit,Power fault,DI01-05,P&ID-028,2-001,N/A,N/A
+1290-PT0001_PI,AI,4-20 mA,bar,Air compression,Pressure Device,Pressure reading,AI01-06,P&ID-005,2-001,0,24
+1290-PT0002_PI,AI,0-10 V,bar,Air compression,Pressure Device,Pressure reading,AI01-07,P&ID-005,2-001,0,13
+1290-TT0001_TI,AI,0-10 V,Celcius,Air compression,Temperature Device,Temperature reading,AI01-08,P&ID-027,2-001,29,133
+1290-VC30001_XOC,DO,Relay,N/A,Material batching,Three-Way Valve,Open command,DO01-09,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XCC,DO,Relay,N/A,Material batching,Three-Way Valve,Close command,DO01-10,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XIC,DO,Relay,N/A,Material batching,Three-Way Valve,Mid position,DO01-11,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XOF,DI,Pulse,N/A,Material batching,Three-Way Valve,Open status,DI01-12,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XCF,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Closed status,DI01-13,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XIF,DI,24 VDC,N/A,Material batching,Three-Way Valve,Mid status,DI01-14,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XMV,DI,Pulse,N/A,Material batching,Three-Way Valve,Moving status,DI01-15,P&ID-017,3-001,N/A,N/A
+1290-VC30001_XFT,DI,24 VDC,N/A,Material batching,Three-Way Valve,Fault status,DI01-16,P&ID-017,3-001,N/A,N/A
+1290-VC30001_POS,AI,4-20 mA,N/A,Material batching,Three-Way Valve,Position value,AI02-01,P&ID-017,3-001,0,100
+1290-VC30001_XRS,DO,Solid State,N/A,Material batching,Three-Way Valve,Reset fault,DO02-02,P&ID-017,3-001,N/A,N/A
+1290-VC30002_XOC,DO,Solid State,N/A,Material batching,Three-Way Valve,Open command,DO02-03,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XCC,DO,24 VDC,N/A,Material batching,Three-Way Valve,Close command,DO02-04,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XIC,DO,Solid State,N/A,Material batching,Three-Way Valve,Mid position,DO02-05,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XOF,DI,Pulse,N/A,Material batching,Three-Way Valve,Open status,DI02-06,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XCF,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Closed status,DI02-07,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XIF,DI,24 VDC,N/A,Material batching,Three-Way Valve,Mid status,DI02-08,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XMV,DI,Pulse,N/A,Material batching,Three-Way Valve,Moving status,DI02-09,P&ID-010,3-001,N/A,N/A
+1290-VC30002_XFT,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Fault status,DI02-10,P&ID-010,3-001,N/A,N/A
+1290-VC30002_POS,AI,0-10 V,N/A,Material batching,Three-Way Valve,Position value,AI02-11,P&ID-010,3-001,0,100
+1290-VC30002_XRS,DO,Relay,N/A,Material batching,Three-Way Valve,Reset fault,DO02-12,P&ID-010,3-001,N/A,N/A
+1290-PM0001_XST,DO,Solid State,N/A,Material transfer,Pump Motor Basic,Start pump,DO02-13,P&ID-009,3-002,N/A,N/A
+1290-PM0001_XSP,DO,Solid State,N/A,Material transfer,Pump Motor Basic,Stop pump,DO02-14,P&ID-009,3-002,N/A,N/A
+1290-PM0001_XRC,DO,Relay,N/A,Material transfer,Pump Motor Basic,Remote control,DO02-15,P&ID-009,3-002,N/A,N/A
+1290-PM0001_XRN,DI,Dry Contact,N/A,Material transfer,Pump Motor Basic,Running status,DI02-16,P&ID-009,3-002,N/A,N/A
+1290-PM0001_XPFA,DI,24 VDC,N/A,Material transfer,Pump Motor Basic,Power fault,DI03-01,P&ID-009,3-002,N/A,N/A
+1290-PM0001_XOLA,DI,Pulse,N/A,Material transfer,Pump Motor Basic,Overload alarm,DI03-02,P&ID-009,3-002,N/A,N/A
+1290-FT0001_FI,AI,4-20 mA,m3/h,Material transfer,Flow Device,Flow reading,AI03-03,P&ID-033,3-002,0,187
+1290-VC0001_XOC,DO,Relay,N/A,Material transfer,Valve Basic,Open valve,DO03-04,P&ID-044,3-002,N/A,N/A
+1290-VC0001_XCC,DO,Solid State,N/A,Material transfer,Valve Basic,Close valve,DO03-05,P&ID-044,3-002,N/A,N/A
+1290-VC0001_XOF,DI,Pulse,N/A,Material transfer,Valve Basic,Open status,DI03-06,P&ID-044,3-002,N/A,N/A
+1290-VC0001_XCF,DI,24 VDC,N/A,Material transfer,Valve Basic,Closed status,DI03-07,P&ID-044,3-002,N/A,N/A
+1290-VC0002_XOC,DO,24 VDC,N/A,Material transfer,Valve Basic,Open valve,DO03-08,P&ID-041,3-002,N/A,N/A
+1290-VC0002_XCC,DO,24 VDC,N/A,Material transfer,Valve Basic,Close valve,DO03-09,P&ID-041,3-002,N/A,N/A
+1290-VC0002_XOF,DI,Pulse,N/A,Material transfer,Valve Basic,Open status,DI03-10,P&ID-041,3-002,N/A,N/A
+1290-VC0002_XCF,DI,Pulse,N/A,Material transfer,Valve Basic,Closed status,DI03-11,P&ID-041,3-002,N/A,N/A
+1290-VFD0001_XST,DO,Relay,N/A,Variable speed pump,Variable Drive Full,Start drive,DO03-12,P&ID-036,3-003,N/A,N/A
+1290-VFD0001_XSP,DO,Relay,N/A,Variable speed pump,Variable Drive Full,Stop drive,DO03-13,P&ID-036,3-003,N/A,N/A
+1290-VFD0001_XRS,DO,24 VDC,N/A,Variable speed pump,Variable Drive Full,Reset drive,DO03-14,P&ID-036,3-003,N/A,N/A
+1290-VFD0001_XRC,DO,Solid State,N/A,Variable speed pump,Variable Drive Full,Remote mode,DO03-15,P&ID-036,3-003,N/A,N/A
+1290-VFD0001_XRN,DI,Dry Contact,N/A,Variable speed pump,Variable Drive Full,Running status,DI03-16,P&ID-036,3-003,N/A,N/A
+1290-VFD0001_XFT,DI,Dry Contact,N/A,Variable speed pump,Variable Drive Full,Fault status,DI04-01,P&ID-036,3-003,N/A,N/A
+1290-VFD0001_SC,AO,Relay,N/A,Variable speed pump,Variable Drive Full,Speed control,AO04-02,P&ID-036,3-003,0,100
+1290-VFD0001_SI,AI,RTD,Celcius,Variable speed pump,Variable Drive Full,Speed feedback,AI04-03,P&ID-036,3-003,0,100
+1290-VFD0001_CI,AI,4-20 mA,N/A,Variable speed pump,Variable Drive Full,Current feedback,AI04-04,P&ID-036,3-003,0,100
+1290-VFD0001_XMA,DI,Pulse,N/A,Variable speed pump,Variable Drive Full,Manual mode,DI04-05,P&ID-036,3-003,N/A,N/A
+1290-FT0002_FI,AI,4-20 mA,m3/h,Variable speed pump,Flow Device,Flow reading,AI04-06,P&ID-019,3-003,0,309
+1290-PT0001_PI,AI,4-20 mA,bar,Variable speed pump,Pressure Device,Pressure reading,AI04-07,P&ID-033,3-003,0,6
+1290-FN0001_XST,DO,24 VDC,N/A,Air handling,Fan Unit,Start fan,DO04-08,P&ID-018,4-001,N/A,N/A
+1290-FN0001_XSP,DO,Relay,N/A,Air handling,Fan Unit,Stop fan,DO04-09,P&ID-018,4-001,N/A,N/A
+1290-FN0001_XRN,DI,Dry Contact,N/A,Air handling,Fan Unit,Running status,DI04-10,P&ID-018,4-001,N/A,N/A
+1290-TT0001_TI,AI,4-20 mA,Celcius,Air handling,Temperature Device,Temperature reading,AI04-11,P&ID-006,4-001,2,93
+1290-PM0001_XST,DO,Relay,N/A,Pumping system,Pump Motor Standard,Start command,DO04-12,P&ID-026,4-002,N/A,N/A
+1290-PM0001_XSP,DO,Relay,N/A,Pumping system,Pump Motor Standard,Stop command,DO04-13,P&ID-026,4-002,N/A,N/A
+1290-PM0001_XRS,DO,Relay,N/A,Pumping system,Pump Motor Standard,Reset fault,DO04-14,P&ID-026,4-002,N/A,N/A
+1290-PM0001_XRN,DI,Dry Contact,N/A,Pumping system,Pump Motor Standard,Running status,DI04-15,P&ID-026,4-002,N/A,N/A
+1290-PM0001_XHFA,DI,Dry Contact,N/A,Pumping system,Pump Motor Standard,High flow alarm,DI04-16,P&ID-026,4-002,N/A,N/A
+1290-PM0001_XOLA,DI,24 VDC,N/A,Pumping system,Pump Motor Standard,Overload alarm,DI05-01,P&ID-026,4-002,N/A,N/A
+1290-FT0001_FI,AI,0-10 V,m3/h,Pumping system,Flow Device,Flow reading,AI05-02,P&ID-029,4-002,0,456
+1290-PT0001_PI,AI,RTD,Celcius,Pumping system,Pressure Device,Pressure reading,AI05-03,P&ID-038,4-002,0,12
+1290-VC0001_XOC,DO,24 VDC,N/A,Pumping system,Valve Basic,Open valve,DO05-04,P&ID-014,4-002,N/A,N/A
+1290-VC0001_XCC,DO,Solid State,N/A,Pumping system,Valve Basic,Close valve,DO05-05,P&ID-014,4-002,N/A,N/A
+1290-VC0001_XOF,DI,Dry Contact,N/A,Pumping system,Valve Basic,Open status,DI05-06,P&ID-014,4-002,N/A,N/A
+1290-VC0001_XCF,DI,24 VDC,N/A,Pumping system,Valve Basic,Closed status,DI05-07,P&ID-014,4-002,N/A,N/A
+1290-CB0001_XFWD,DO,Solid State,N/A,Material transport,Conveyor Full,Forward command,DO05-08,P&ID-019,5-001,N/A,N/A
+1290-CB0001_XREV,DO,24 VDC,N/A,Material transport,Conveyor Full,Reverse command,DO05-09,P&ID-019,5-001,N/A,N/A
+1290-CB0001_XSTP,DO,24 VDC,N/A,Material transport,Conveyor Full,Stop command,DO05-10,P&ID-019,5-001,N/A,N/A
+1290-CB0001_XFWF,DI,Pulse,N/A,Material transport,Conveyor Full,Forward status,DI05-11,P&ID-019,5-001,N/A,N/A
+1290-CB0001_XRVF,DI,Pulse,N/A,Material transport,Conveyor Full,Reverse status,DI05-12,P&ID-019,5-001,N/A,N/A
+1290-CB0001_XRDY,DI,Pulse,N/A,Material transport,Conveyor Full,Ready status,DI05-13,P&ID-019,5-001,N/A,N/A
+1290-CB0001_XFTA,DI,Pulse,N/A,Material transport,Conveyor Full,Fault status,DI05-14,P&ID-019,5-001,N/A,N/A
+1290-CB0001_SC,AO,Relay,N/A,Material transport,Conveyor Full,Speed control,AO05-15,P&ID-019,5-001,0,100
+1290-CB0001_SI,AI,0-10 V,N/A,Material transport,Conveyor Full,Speed feedback,AI05-16,P&ID-019,5-001,0,100
+1290-CB0001_XOLA,DI,Dry Contact,N/A,Material transport,Conveyor Full,Overload alarm,DI06-01,P&ID-019,5-001,N/A,N/A
+1290-FT0001_FI,AI,RTD,Celcius,Material transport,Flow Device,Flow reading,AI06-02,P&ID-041,5-001,0,494
+1290-LT0001_LI,AI,4-20 mA,N/A,Material transport,Level Device,Tank level,AI06-03,P&ID-045,5-001,0,100
+1290-LT0002_LI,AI,4-20 mA,N/A,Material transport,Level Device,Tank level,AI06-04,P&ID-016,5-001,0,100
+1290-HTR0001_XST,DO,24 VDC,N/A,Process heating,Heater Full,Start heater,DO06-05,P&ID-003,5-002,N/A,N/A
+1290-HTR0001_XSP,DO,24 VDC,N/A,Process heating,Heater Full,Stop heater,DO06-06,P&ID-003,5-002,N/A,N/A
+1290-HTR0001_XRN,DI,Dry Contact,N/A,Process heating,Heater Full,Running status,DI06-07,P&ID-003,5-002,N/A,N/A
+1290-HTR0001_TC,AO,24 VDC,Celcius,Process heating,Heater Full,Temp setpoint,AO06-08,P&ID-003,5-002,0,100
+1290-HTR0001_TI,AI,0-10 V,Celcius,Process heating,Heater Full,Temp feedback,AI06-09,P&ID-003,5-002,0,100
+1290-TT0001_TI,AI,4-20 mA,Celcius,Process heating,Temperature Device,Temperature reading,AI06-10,P&ID-047,5-002,-2,142
+1290-TT0002_TI,AI,0-10 V,Celcius,Process heating,Temperature Device,Temperature reading,AI06-11,P&ID-025,5-002,8,119
+1290-FT0002_FI,AI,RTD,Celcius,Process heating,Flow Device,Flow reading,AI06-12,P&ID-046,5-002,0,349
+1290-PM0001_XST,DO,Relay,N/A,Material transfer,Pump Motor Standard,Start command,DO06-13,P&ID-019,5-003,N/A,N/A
+1290-PM0001_XSP,DO,24 VDC,N/A,Material transfer,Pump Motor Standard,Stop command,DO06-14,P&ID-019,5-003,N/A,N/A
+1290-PM0001_XRS,DO,Solid State,N/A,Material transfer,Pump Motor Standard,Reset fault,DO06-15,P&ID-019,5-003,N/A,N/A
+1290-PM0001_XRN,DI,Pulse,N/A,Material transfer,Pump Motor Standard,Running status,DI06-16,P&ID-019,5-003,N/A,N/A
+1290-PM0001_XHFA,DI,Pulse,N/A,Material transfer,Pump Motor Standard,High flow alarm,DI07-01,P&ID-019,5-003,N/A,N/A
+1290-PM0001_XOLA,DI,Pulse,N/A,Material transfer,Pump Motor Standard,Overload alarm,DI07-02,P&ID-019,5-003,N/A,N/A
+1290-FT0003_FI,AI,0-10 V,m3/h,Material transfer,Flow Device,Flow reading,AI07-03,P&ID-041,5-003,0,138
+1290-VC0001_XOC,DO,24 VDC,N/A,Material transfer,Valve Basic,Open valve,DO07-04,P&ID-009,5-003,N/A,N/A
+1290-VC0001_XCC,DO,24 VDC,N/A,Material transfer,Valve Basic,Close valve,DO07-05,P&ID-009,5-003,N/A,N/A
+1290-VC0001_XOF,DI,Dry Contact,N/A,Material transfer,Valve Basic,Open status,DI07-06,P&ID-009,5-003,N/A,N/A
+1290-VC0001_XCF,DI,Dry Contact,N/A,Material transfer,Valve Basic,Closed status,DI07-07,P&ID-009,5-003,N/A,N/A
+1290-VC0002_XOC,DO,Relay,N/A,Material transfer,Valve Basic,Open valve,DO07-08,P&ID-046,5-003,N/A,N/A
+1290-VC0002_XCC,DO,24 VDC,N/A,Material transfer,Valve Basic,Close valve,DO07-09,P&ID-046,5-003,N/A,N/A
+1290-VC0002_XOF,DI,24 VDC,N/A,Material transfer,Valve Basic,Open status,DI07-10,P&ID-046,5-003,N/A,N/A
+1290-VC0002_XCF,DI,Pulse,N/A,Material transfer,Valve Basic,Closed status,DI07-11,P&ID-046,5-003,N/A,N/A
+1290-HTR0001_XST,DO,Solid State,N/A,Process heating,Heater Simple,Start heater,DO07-12,P&ID-010,6-001,N/A,N/A
+1290-HTR0001_XRN,DI,Dry Contact,N/A,Process heating,Heater Simple,Running status,DI07-13,P&ID-010,6-001,N/A,N/A
+1290-TT0001_TI,AI,4-20 mA,Celcius,Process heating,Temperature Device,Temperature reading,AI07-14,P&ID-041,6-001,5,107
+1290-TT0002_TI,AI,4-20 mA,Celcius,Process heating,Temperature Device,Temperature reading,AI07-15,P&ID-019,6-001,23,107
+1290-FT0001_FI,AI,4-20 mA,m3/h,Process heating,Flow Device,Flow reading,AI07-16,P&ID-040,6-001,0,369
+1290-LT0001_LI,AI,RTD,Celcius,Storage tank,Level Device,Tank level,AI08-01,P&ID-040,7-001,0,100
+1290-TT0001_TI,AI,0-10 V,Celcius,Storage tank,Temperature Device,Temperature reading,AI08-02,P&ID-035,7-001,-10,86
+1290-VC0001_XOC,DO,Solid State,N/A,Storage tank,Valve Basic,Open valve,DO08-03,P&ID-021,7-001,N/A,N/A
+1290-VC0001_XCC,DO,24 VDC,N/A,Storage tank,Valve Basic,Close valve,DO08-04,P&ID-021,7-001,N/A,N/A
+1290-VC0001_XOF,DI,Dry Contact,N/A,Storage tank,Valve Basic,Open status,DI08-05,P&ID-021,7-001,N/A,N/A
+1290-VC0001_XCF,DI,Dry Contact,N/A,Storage tank,Valve Basic,Closed status,DI08-06,P&ID-021,7-001,N/A,N/A
+1290-VC0002_XOC,DO,Relay,N/A,Storage tank,Valve Basic,Open valve,DO08-07,P&ID-004,7-001,N/A,N/A
+1290-VC0002_XCC,DO,Solid State,N/A,Storage tank,Valve Basic,Close valve,DO08-08,P&ID-004,7-001,N/A,N/A
+1290-VC0002_XOF,DI,Pulse,N/A,Storage tank,Valve Basic,Open status,DI08-09,P&ID-004,7-001,N/A,N/A
+1290-VC0002_XCF,DI,Pulse,N/A,Storage tank,Valve Basic,Closed status,DI08-10,P&ID-004,7-001,N/A,N/A
+1290-CB0001_XFWD,DO,Relay,N/A,Material transport,Conveyor Basic,Forward command,DO08-11,P&ID-047,7-002,N/A,N/A
+1290-CB0001_XREV,DO,24 VDC,N/A,Material transport,Conveyor Basic,Reverse command,DO08-12,P&ID-047,7-002,N/A,N/A
+1290-CB0001_XSTP,DO,Relay,N/A,Material transport,Conveyor Basic,Stop command,DO08-13,P&ID-047,7-002,N/A,N/A
+1290-CB0001_XFWF,DI,24 VDC,N/A,Material transport,Conveyor Basic,Forward status,DI08-14,P&ID-047,7-002,N/A,N/A
+1290-CB0001_XRVF,DI,24 VDC,N/A,Material transport,Conveyor Basic,Reverse status,DI08-15,P&ID-047,7-002,N/A,N/A
+1290-CB0001_XFTA,DI,Pulse,N/A,Material transport,Conveyor Basic,Fault status,DI08-16,P&ID-047,7-002,N/A,N/A
+1290-VC0003_XOC,DO,24 VDC,N/A,Material transport,Valve Basic,Open valve,DO09-01,P&ID-046,7-002,N/A,N/A
+1290-VC0003_XCC,DO,24 VDC,N/A,Material transport,Valve Basic,Close valve,DO09-02,P&ID-046,7-002,N/A,N/A
+1290-VC0003_XOF,DI,Pulse,N/A,Material transport,Valve Basic,Open status,DI09-03,P&ID-046,7-002,N/A,N/A
+1290-VC0003_XCF,DI,Pulse,N/A,Material transport,Valve Basic,Closed status,DI09-04,P&ID-046,7-002,N/A,N/A
+1290-FT0001_FI,AI,0-10 V,m3/h,Material transport,Flow Device,Flow reading,AI09-05,P&ID-024,7-002,0,196
+1290-CA0001_XST,DO,Solid State,N/A,Air compression,Compressor Unit,Start compressor,DO09-06,P&ID-039,7-003,N/A,N/A
+1290-CA0001_XSP,DO,24 VDC,N/A,Air compression,Compressor Unit,Stop compressor,DO09-07,P&ID-039,7-003,N/A,N/A
+1290-CA0001_XRN,DI,24 VDC,N/A,Air compression,Compressor Unit,Running status,DI09-08,P&ID-039,7-003,N/A,N/A
+1290-CA0001_XPFA,DI,Pulse,N/A,Air compression,Compressor Unit,Power fault,DI09-09,P&ID-039,7-003,N/A,N/A
+1290-PT0001_PI,AI,0-10 V,bar,Air compression,Pressure Device,Pressure reading,AI09-10,P&ID-008,7-003,0,6
+1290-PT0002_PI,AI,0-10 V,bar,Air compression,Pressure Device,Pressure reading,AI09-11,P&ID-001,7-003,0,11
+1290-TT0002_TI,AI,Thermocouple,Celcius,Air compression,Temperature Device,Temperature reading,AI09-12,P&ID-027,7-003,-1,94
+1290-CA0001_XST,DO,Relay,N/A,Air compression,Compressor Unit,Start compressor,DO09-13,P&ID-046,8-001,N/A,N/A
+1290-CA0001_XSP,DO,Solid State,N/A,Air compression,Compressor Unit,Stop compressor,DO09-14,P&ID-046,8-001,N/A,N/A
+1290-CA0001_XRN,DI,Dry Contact,N/A,Air compression,Compressor Unit,Running status,DI09-15,P&ID-046,8-001,N/A,N/A
+1290-CA0001_XPFA,DI,Pulse,N/A,Air compression,Compressor Unit,Power fault,DI09-16,P&ID-046,8-001,N/A,N/A
+1290-PT0001_PI,AI,4-20 mA,bar,Air compression,Pressure Device,Pressure reading,AI10-01,P&ID-048,8-001,0,18
+1290-PT0002_PI,AI,Thermocouple,Celcius,Air compression,Pressure Device,Pressure reading,AI10-02,P&ID-009,8-001,0,10
+1290-TT0001_TI,AI,RTD,Celcius,Air compression,Temperature Device,Temperature reading,AI10-03,P&ID-024,8-001,-5,110
+1290-CB0001_XFWD,DO,Solid State,N/A,Material transport,Conveyor Full,Forward command,DO10-04,P&ID-010,9-001,N/A,N/A
+1290-CB0001_XREV,DO,24 VDC,N/A,Material transport,Conveyor Full,Reverse command,DO10-05,P&ID-010,9-001,N/A,N/A
+1290-CB0001_XSTP,DO,24 VDC,N/A,Material transport,Conveyor Full,Stop command,DO10-06,P&ID-010,9-001,N/A,N/A
+1290-CB0001_XFWF,DI,Dry Contact,N/A,Material transport,Conveyor Full,Forward status,DI10-07,P&ID-010,9-001,N/A,N/A
+1290-CB0001_XRVF,DI,Dry Contact,N/A,Material transport,Conveyor Full,Reverse status,DI10-08,P&ID-010,9-001,N/A,N/A
+1290-CB0001_XRDY,DI,Pulse,N/A,Material transport,Conveyor Full,Ready status,DI10-09,P&ID-010,9-001,N/A,N/A
+1290-CB0001_XFTA,DI,Pulse,N/A,Material transport,Conveyor Full,Fault status,DI10-10,P&ID-010,9-001,N/A,N/A
+1290-CB0001_SC,AO,Solid State,N/A,Material transport,Conveyor Full,Speed control,AO10-11,P&ID-010,9-001,0,100
+1290-CB0001_SI,AI,RTD,Celcius,Material transport,Conveyor Full,Speed feedback,AI10-12,P&ID-010,9-001,0,100
+1290-CB0001_XOLA,DI,24 VDC,N/A,Material transport,Conveyor Full,Overload alarm,DI10-13,P&ID-010,9-001,N/A,N/A
+1290-LT0001_LI,AI,0-10 V,N/A,Material transport,Level Device,Tank level,AI10-14,P&ID-040,9-001,0,100
+1290-LT0002_LI,AI,0-10 V,N/A,Material transport,Level Device,Tank level,AI10-15,P&ID-047,9-001,0,100
+1290-CA0001_XST,DO,Solid State,N/A,Air compression,Compressor Unit,Start compressor,DO10-16,P&ID-023,9-002,N/A,N/A
+1290-CA0001_XSP,DO,Solid State,N/A,Air compression,Compressor Unit,Stop compressor,DO11-01,P&ID-023,9-002,N/A,N/A
+1290-CA0001_XRN,DI,Dry Contact,N/A,Air compression,Compressor Unit,Running status,DI11-02,P&ID-023,9-002,N/A,N/A
+1290-CA0001_XPFA,DI,Dry Contact,N/A,Air compression,Compressor Unit,Power fault,DI11-03,P&ID-023,9-002,N/A,N/A
+1290-PT0001_PI,AI,RTD,Celcius,Air compression,Pressure Device,Pressure reading,AI11-04,P&ID-028,9-002,0,22
+1290-PT0002_PI,AI,0-10 V,bar,Air compression,Pressure Device,Pressure reading,AI11-05,P&ID-011,9-002,0,23
+1290-TT0001_TI,AI,4-20 mA,Celcius,Air compression,Temperature Device,Temperature reading,AI11-06,P&ID-011,9-002,3,140
+1290-CB0002_XFWD,DO,Solid State,N/A,Product packaging,Conveyor Basic,Forward command,DO11-07,P&ID-013,9-003,N/A,N/A
+1290-CB0002_XREV,DO,24 VDC,N/A,Product packaging,Conveyor Basic,Reverse command,DO11-08,P&ID-013,9-003,N/A,N/A
+1290-CB0002_XSTP,DO,Solid State,N/A,Product packaging,Conveyor Basic,Stop command,DO11-09,P&ID-013,9-003,N/A,N/A
+1290-CB0002_XFWF,DI,24 VDC,N/A,Product packaging,Conveyor Basic,Forward status,DI11-10,P&ID-013,9-003,N/A,N/A
+1290-CB0002_XRVF,DI,Pulse,N/A,Product packaging,Conveyor Basic,Reverse status,DI11-11,P&ID-013,9-003,N/A,N/A
+1290-CB0002_XFTA,DI,24 VDC,N/A,Product packaging,Conveyor Basic,Fault status,DI11-12,P&ID-013,9-003,N/A,N/A
+1290-CB0003_XFWD,DO,Relay,N/A,Product packaging,Conveyor Full,Forward command,DO11-13,P&ID-050,9-003,N/A,N/A
+1290-CB0003_XREV,DO,Solid State,N/A,Product packaging,Conveyor Full,Reverse command,DO11-14,P&ID-050,9-003,N/A,N/A
+1290-CB0003_XSTP,DO,Relay,N/A,Product packaging,Conveyor Full,Stop command,DO11-15,P&ID-050,9-003,N/A,N/A
+1290-CB0003_XFWF,DI,24 VDC,N/A,Product packaging,Conveyor Full,Forward status,DI11-16,P&ID-050,9-003,N/A,N/A
+1290-CB0003_XRVF,DI,24 VDC,N/A,Product packaging,Conveyor Full,Reverse status,DI12-01,P&ID-050,9-003,N/A,N/A
+1290-CB0003_XRDY,DI,Dry Contact,N/A,Product packaging,Conveyor Full,Ready status,DI12-02,P&ID-050,9-003,N/A,N/A
+1290-CB0003_XFTA,DI,Dry Contact,N/A,Product packaging,Conveyor Full,Fault status,DI12-03,P&ID-050,9-003,N/A,N/A
+1290-CB0003_SC,AO,Relay,N/A,Product packaging,Conveyor Full,Speed control,AO12-04,P&ID-050,9-003,0,100
+1290-CB0003_SI,AI,0-10 V,N/A,Product packaging,Conveyor Full,Speed feedback,AI12-05,P&ID-050,9-003,0,100
+1290-CB0003_XOLA,DI,Pulse,N/A,Product packaging,Conveyor Full,Overload alarm,DI12-06,P&ID-050,9-003,N/A,N/A
+1290-FN0001_XST,DO,Relay,N/A,Air handling,Fan Unit,Start fan,DO12-07,P&ID-020,9-004,N/A,N/A
+1290-FN0001_XSP,DO,Relay,N/A,Air handling,Fan Unit,Stop fan,DO12-08,P&ID-020,9-004,N/A,N/A
+1290-FN0001_XRN,DI,Pulse,N/A,Air handling,Fan Unit,Running status,DI12-09,P&ID-020,9-004,N/A,N/A
+1290-TT0002_TI,AI,0-10 V,Celcius,Air handling,Temperature Device,Temperature reading,AI12-10,P&ID-023,9-004,-17,121
+1290-FN0002_XST,DO,Relay,N/A,Air handling,Fan Unit,Start fan,DO12-11,P&ID-015,9-005,N/A,N/A
+1290-FN0002_XSP,DO,Relay,N/A,Air handling,Fan Unit,Stop fan,DO12-12,P&ID-015,9-005,N/A,N/A
+1290-FN0002_XRN,DI,24 VDC,N/A,Air handling,Fan Unit,Running status,DI12-13,P&ID-015,9-005,N/A,N/A
+1290-TT0003_TI,AI,0-10 V,Celcius,Air handling,Temperature Device,Temperature reading,AI12-14,P&ID-020,9-005,-17,83
+1290-LT0003_LI,AI,RTD,Celcius,Storage tank,Level Device,Tank level,AI12-15,P&ID-004,9-006,0,100
+1290-TT0004_TI,AI,4-20 mA,Celcius,Storage tank,Temperature Device,Temperature reading,AI12-16,P&ID-014,9-006,-1,142
+1290-VFD0001_XST,DO,Solid State,N/A,Variable speed pump,Variable Drive Basic,Start drive,DO13-01,P&ID-001,9-007,N/A,N/A
+1290-VFD0001_XSP,DO,24 VDC,N/A,Variable speed pump,Variable Drive Basic,Stop drive,DO13-02,P&ID-001,9-007,N/A,N/A
+1290-VFD0001_XRS,DO,Solid State,N/A,Variable speed pump,Variable Drive Basic,Reset drive,DO13-03,P&ID-001,9-007,N/A,N/A
+1290-VFD0001_XRN,DI,Pulse,N/A,Variable speed pump,Variable Drive Basic,Running status,DI13-04,P&ID-001,9-007,N/A,N/A
+1290-VFD0001_XFT,DI,Dry Contact,N/A,Variable speed pump,Variable Drive Basic,Fault status,DI13-05,P&ID-001,9-007,N/A,N/A
+1290-VFD0001_SC,AO,Relay,N/A,Variable speed pump,Variable Drive Basic,Speed control,AO13-06,P&ID-001,9-007,0,100
+1290-VFD0001_SI,AI,RTD,Celcius,Variable speed pump,Variable Drive Basic,Speed feedback,AI13-07,P&ID-001,9-007,0,100
+1290-FT0001_FI,AI,RTD,Celcius,Variable speed pump,Flow Device,Flow reading,AI13-08,P&ID-002,9-007,0,285
+1290-PT0003_PI,AI,RTD,Celcius,Variable speed pump,Pressure Device,Pressure reading,AI13-09,P&ID-040,9-007,0,18
+1290-CA0001_XST,DO,Relay,N/A,Air compression,Compressor Unit,Start compressor,DO13-10,P&ID-019,1-001,N/A,N/A
+1290-CA0001_XSP,DO,24 VDC,N/A,Air compression,Compressor Unit,Stop compressor,DO13-11,P&ID-019,1-001,N/A,N/A
+1290-CA0001_XRN,DI,Dry Contact,N/A,Air compression,Compressor Unit,Running status,DI13-12,P&ID-019,1-001,N/A,N/A
+1290-CA0001_XPFA,DI,Pulse,N/A,Air compression,Compressor Unit,Power fault,DI13-13,P&ID-019,1-001,N/A,N/A
+1290-PT0001_PI,AI,Thermocouple,Celcius,Air compression,Pressure Device,Pressure reading,AI13-14,P&ID-015,1-001,0,20
+1290-PT0002_PI,AI,0-10 V,bar,Air compression,Pressure Device,Pressure reading,AI13-15,P&ID-024,1-001,0,12
+1290-TT0001_TI,AI,0-10 V,Celcius,Air compression,Temperature Device,Temperature reading,AI13-16,P&ID-011,1-001,24,97
+1290-VC30001_XOC,DO,Relay,N/A,Material batching,Three-Way Valve,Open command,DO14-01,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XCC,DO,24 VDC,N/A,Material batching,Three-Way Valve,Close command,DO14-02,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XIC,DO,Solid State,N/A,Material batching,Three-Way Valve,Mid position,DO14-03,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XOF,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Open status,DI14-04,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XCF,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Closed status,DI14-05,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XIF,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Mid status,DI14-06,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XMV,DI,Pulse,N/A,Material batching,Three-Way Valve,Moving status,DI14-07,P&ID-043,1-002,N/A,N/A
+1290-VC30001_XFT,DI,24 VDC,N/A,Material batching,Three-Way Valve,Fault status,DI14-08,P&ID-043,1-002,N/A,N/A
+1290-VC30001_POS,AI,4-20 mA,N/A,Material batching,Three-Way Valve,Position value,AI14-09,P&ID-043,1-002,0,100
+1290-VC30001_XRS,DO,24 VDC,N/A,Material batching,Three-Way Valve,Reset fault,DO14-10,P&ID-043,1-002,N/A,N/A
+1290-VC30002_XOC,DO,24 VDC,N/A,Material batching,Three-Way Valve,Open command,DO14-11,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XCC,DO,Solid State,N/A,Material batching,Three-Way Valve,Close command,DO14-12,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XIC,DO,Solid State,N/A,Material batching,Three-Way Valve,Mid position,DO14-13,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XOF,DI,Dry Contact,N/A,Material batching,Three-Way Valve,Open status,DI14-14,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XCF,DI,24 VDC,N/A,Material batching,Three-Way Valve,Closed status,DI14-15,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XIF,DI,Pulse,N/A,Material batching,Three-Way Valve,Mid status,DI14-16,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XMV,DI,Pulse,N/A,Material batching,Three-Way Valve,Moving status,DI15-01,P&ID-025,1-002,N/A,N/A
+1290-VC30002_XFT,DI,24 VDC,N/A,Material batching,Three-Way Valve,Fault status,DI15-02,P&ID-025,1-002,N/A,N/A
+1290-VC30002_POS,AI,RTD,Celcius,Material batching,Three-Way Valve,Position value,AI15-03,P&ID-025,1-002,0,100
+1290-VC30002_XRS,DO,24 VDC,N/A,Material batching,Three-Way Valve,Reset fault,DO15-04,P&ID-025,1-002,N/A,N/A
+1290-HTR0001_XST,DO,Relay,N/A,Process heating,Heater Simple,Start heater,DO15-05,P&ID-029,1-003,N/A,N/A
+1290-HTR0001_XRN,DI,Dry Contact,N/A,Process heating,Heater Simple,Running status,DI15-06,P&ID-029,1-003,N/A,N/A
+1290-TT0002_TI,AI,0-10 V,Celcius,Process heating,Temperature Device,Temperature reading,AI15-07,P&ID-023,1-003,5,146
+1290-TT0003_TI,AI,0-10 V,Celcius,Process heating,Temperature Device,Temperature reading,AI15-08,P&ID-033,1-003,-11,105
+1290-HTR0002_XST,DO,Relay,N/A,Process heating,Heater Simple,Start heater,DO15-09,P&ID-045,1-004,N/A,N/A
+1290-HTR0002_XRN,DI,Pulse,N/A,Process heating,Heater Simple,Running status,DI15-10,P&ID-045,1-004,N/A,N/A
+1290-TT0004_TI,AI,4-20 mA,Celcius,Process heating,Temperature Device,Temperature reading,AI15-11,P&ID-048,1-004,17,84
+1290-TT0005_TI,AI,0-10 V,Celcius,Process heating,Temperature Device,Temperature reading,AI15-12,P&ID-019,1-004,-12,130
+1290-FT0001_FI,AI,4-20 mA,m3/h,Process heating,Flow Device,Flow reading,AI15-13,P&ID-027,1-004,0,168
+1290-CA0002_XST,DO,Solid State,N/A,Air compression,Compressor Unit,Start compressor,DO15-14,P&ID-049,1-005,N/A,N/A
+1290-CA0002_XSP,DO,24 VDC,N/A,Air compression,Compressor Unit,Stop compressor,DO15-15,P&ID-049,1-005,N/A,N/A
+1290-CA0002_XRN,DI,24 VDC,N/A,Air compression,Compressor Unit,Running status,DI15-16,P&ID-049,1-005,N/A,N/A
+1290-CA0002_XPFA,DI,24 VDC,N/A,Air compression,Compressor Unit,Power fault,DI16-01,P&ID-049,1-005,N/A,N/A
+1290-PT0003_PI,AI,RTD,Celcius,Air compression,Pressure Device,Pressure reading,AI16-02,P&ID-040,1-005,0,16
+1290-PT0004_PI,AI,0-10 V,bar,Air compression,Pressure Device,Pressure reading,AI16-03,P&ID-023,1-005,0,8
+1290-TT0006_TI,AI,0-10 V,Celcius,Air compression,Temperature Device,Temperature reading,AI16-04,P&ID-002,1-005,-3,89
+1290-PM0001_XST,DO,Relay,N/A,Pumping system,Pump Motor Advanced,Start motor,DO16-05,P&ID-014,1-006,N/A,N/A
+1290-PM0001_XSP,DO,24 VDC,N/A,Pumping system,Pump Motor Advanced,Stop motor,DO16-06,P&ID-014,1-006,N/A,N/A
+1290-PM0001_XRC,DO,Relay,N/A,Pumping system,Pump Motor Advanced,Remote mode,DO16-07,P&ID-014,1-006,N/A,N/A
+1290-PM0001_XRN,DI,24 VDC,N/A,Pumping system,Pump Motor Advanced,Running status,DI16-08,P&ID-014,1-006,N/A,N/A
+1290-PM0001_XHTA,DI,Dry Contact,N/A,Pumping system,Pump Motor Advanced,High temp alarm,DI16-09,P&ID-014,1-006,N/A,N/A
+1290-PM0001_XOLA,DI,Dry Contact,N/A,Pumping system,Pump Motor Advanced,Overload alarm,DI16-10,P&ID-014,1-006,N/A,N/A
+1290-FT0002_FI,AI,RTD,Celcius,Pumping system,Flow Device,Flow reading,AI16-11,P&ID-001,1-006,0,355
+1290-PT0005_PI,AI,0-10 V,bar,Pumping system,Pressure Device,Pressure reading,AI16-12,P&ID-005,1-006,0,6
+1290-VC0001_XOC,DO,Solid State,N/A,Pumping system,Valve Basic,Open valve,DO16-13,P&ID-035,1-006,N/A,N/A
+1290-VC0001_XCC,DO,Relay,N/A,Pumping system,Valve Basic,Close valve,DO16-14,P&ID-035,1-006,N/A,N/A
+1290-VC0001_XOF,DI,24 VDC,N/A,Pumping system,Valve Basic,Open status,DI16-15,P&ID-035,1-006,N/A,N/A
+1290-VC0001_XCF,DI,Pulse,N/A,Pumping system,Valve Basic,Closed status,DI16-16,P&ID-035,1-006,N/A,N/A
+1290-MX0001_XST,DO,Solid State,N/A,Material mixing,Mixer Full,Start mixer,DO17-01,P&ID-026,1-007,N/A,N/A
+1290-MX0001_XSP,DO,Relay,N/A,Material mixing,Mixer Full,Stop mixer,DO17-02,P&ID-026,1-007,N/A,N/A
+1290-MX0001_XRN,DI,Pulse,N/A,Material mixing,Mixer Full,Running status,DI17-03,P&ID-026,1-007,N/A,N/A
+1290-MX0001_XOLA,DI,Pulse,N/A,Material mixing,Mixer Full,Overload alarm,DI17-04,P&ID-026,1-007,N/A,N/A
+1290-MX0001_SC,AO,Solid State,N/A,Material mixing,Mixer Full,Speed control,AO17-05,P&ID-026,1-007,0,100
+1290-MX0001_TI,AI,RTD,Celcius,Material mixing,Mixer Full,Temp feedback,AI17-06,P&ID-026,1-007,0,100
+1290-TT0007_TI,AI,4-20 mA,Celcius,Material mixing,Temperature Device,Temperature reading,AI17-07,P&ID-026,1-007,-7,139
+1290-LT0001_LI,AI,0-10 V,N/A,Material mixing,Level Device,Tank level,AI17-08,P&ID-024,1-007,0,100
+1290-VC0002_XOC,DO,24 VDC,N/A,Material mixing,Valve Basic,Open valve,DO17-09,P&ID-047,1-007,N/A,N/A
+1290-VC0002_XCC,DO,Relay,N/A,Material mixing,Valve Basic,Close valve,DO17-10,P&ID-047,1-007,N/A,N/A
+1290-VC0002_XOF,DI,Pulse,N/A,Material mixing,Valve Basic,Open status,DI17-11,P&ID-047,1-007,N/A,N/A
+1290-VC0002_XCF,DI,Dry Contact,N/A,Material mixing,Valve Basic,Closed status,DI17-12,P&ID-047,1-007,N/A,N/A
+1290-VC0003_XOC,DO,Solid State,N/A,Material mixing,Valve Basic,Open valve,DO17-13,P&ID-027,1-007,N/A,N/A
+1290-VC0003_XCC,DO,Solid State,N/A,Material mixing,Valve Basic,Close valve,DO17-14,P&ID-027,1-007,N/A,N/A
+1290-VC0003_XOF,DI,24 VDC,N/A,Material mixing,Valve Basic,Open status,DI17-15,P&ID-027,1-007,N/A,N/A
+1290-VC0003_XCF,DI,Dry Contact,N/A,Material mixing,Valve Basic,Closed status,DI17-16,P&ID-027,1-007,N/A,N/A
+1290-CB0001_XFWD,DO,Relay,N/A,Product packaging,Conveyor Basic,Forward command,DO18-01,P&ID-026,1-008,N/A,N/A
+1290-CB0001_XREV,DO,Solid State,N/A,Product packaging,Conveyor Basic,Reverse command,DO18-02,P&ID-026,1-008,N/A,N/A
+1290-CB0001_XSTP,DO,Solid State,N/A,Product packaging,Conveyor Basic,Stop command,DO18-03,P&ID-026,1-008,N/A,N/A
+1290-CB0001_XFWF,DI,Dry Contact,N/A,Product packaging,Conveyor Basic,Forward status,DI18-04,P&ID-026,1-008,N/A,N/A
+1290-CB0001_XRVF,DI,Dry Contact,N/A,Product packaging,Conveyor Basic,Reverse status,DI18-05,P&ID-026,1-008,N/A,N/A
+1290-CB0001_XFTA,DI,24 VDC,N/A,Product packaging,Conveyor Basic,Fault status,DI18-06,P&ID-026,1-008,N/A,N/A
+1290-CB0002_XFWD,DO,24 VDC,N/A,Product packaging,Conveyor Full,Forward command,DO18-07,P&ID-049,1-008,N/A,N/A
+1290-CB0002_XREV,DO,Relay,N/A,Product packaging,Conveyor Full,Reverse command,DO18-08,P&ID-049,1-008,N/A,N/A
+1290-CB0002_XSTP,DO,Relay,N/A,Product packaging,Conveyor Full,Stop command,DO18-09,P&ID-049,1-008,N/A,N/A
+1290-CB0002_XFWF,DI,24 VDC,N/A,Product packaging,Conveyor Full,Forward status,DI18-10,P&ID-049,1-008,N/A,N/A
+1290-CB0002_XRVF,DI,24 VDC,N/A,Product packaging,Conveyor Full,Reverse status,DI18-11,P&ID-049,1-008,N/A,N/A
+1290-CB0002_XRDY,DI,Pulse,N/A,Product packaging,Conveyor Full,Ready status,DI18-12,P&ID-049,1-008,N/A,N/A
+1290-CB0002_XFTA,DI,Dry Contact,N/A,Product packaging,Conveyor Full,Fault status,DI18-13,P&ID-049,1-008,N/A,N/A
+1290-CB0002_SC,AO,24 VDC,N/A,Product packaging,Conveyor Full,Speed control,AO18-14,P&ID-049,1-008,0,100
+1290-CB0002_SI,AI,4-20 mA,N/A,Product packaging,Conveyor Full,Speed feedback,AI18-15,P&ID-049,1-008,0,100
+1290-CB0002_XOLA,DI,Dry Contact,N/A,Product packaging,Conveyor Full,Overload alarm,DI18-16,P&ID-049,1-008,N/A,N/A
+1290-MX0001_XST,DO,24 VDC,N/A,Material mixing,Mixer Simple,Start mixer,DO19-01,P&ID-041,2-002,N/A,N/A
+1290-MX0001_XRN,DI,Pulse,N/A,Material mixing,Mixer Simple,Running status,DI19-02,P&ID-041,2-002,N/A,N/A
+1290-MX0001_XOLA,DI,Pulse,N/A,Material mixing,Mixer Simple,Overload alarm,DI19-03,P&ID-041,2-002,N/A,N/A
+1290-TT0002_TI,AI,RTD,Celcius,Material mixing,Temperature Device,Temperature reading,AI19-04,P&ID-034,2-002,11,145
+1290-LT0001_LI,AI,RTD,Celcius,Material mixing,Level Device,Tank level,AI19-05,P&ID-008,2-002,0,100
+1290-LT0002_LI,AI,0-10 V,N/A,Storage tank,Level Device,Tank level,AI19-06,P&ID-010,2-004,0,100
+1290-TT0003_TI,AI,4-20 mA,Celcius,Storage tank,Temperature Device,Temperature reading,AI19-07,P&ID-004,2-004,-3,84
+1290-LT0003_LI,AI,RTD,Celcius,Storage tank,Level Device,Tank level,AI19-08,P&ID-013,2-006,0,100
+1290-FN0001_XST,DO,Solid State,N/A,Air handling,Fan Unit,Start fan,DO19-09,P&ID-022,3-009,N/A,N/A
+1290-FN0001_XSP,DO,Relay,N/A,Air handling,Fan Unit,Stop fan,DO19-10,P&ID-022,3-009,N/A,N/A
+1290-FN0001_XRN,DI,24 VDC,N/A,Air handling,Fan Unit,Running status,DI19-11,P&ID-022,3-009,N/A,N/A
+1290-TT0001_TI,AI,Thermocouple,Celcius,Air handling,Temperature Device,Temperature reading,AI19-12,P&ID-041,3-009,28,149
+1290-VC0003_XOC,DO,Relay,N/A,Standalone device,Valve Basic,Open valve,DO19-13,P&ID-042,3-010,N/A,N/A
