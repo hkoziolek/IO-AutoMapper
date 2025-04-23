@@ -73,7 +73,7 @@ TAGNAME_TEMPLATES = {
     "DEVLIST2": "{area}{unit_num}{dev_type}{dev_num:03d}.{suffix}",  # Example: A1100FIT001.PV
     "DEVLIST3": "1290-{dev_type}{dev_num:04d}_{suffix}"  # Example: 1290FIT0001_PV
 }
-ACTIVE_TAGNAME_TEMPLATE = "DEVLIST3"  # Active tagname template
+ACTIVE_TAGNAME_TEMPLATE = TAGNAME_TEMPLATES("DEVLIST3")  # Active tagname template
 
 DEVICE_DEFINITIONS_1 = "device_definitions_1"
 DEVICE_DEFINITIONS_2 = "device_definitions_2"

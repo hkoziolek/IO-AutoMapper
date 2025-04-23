@@ -29,8 +29,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Configure the generator by modifying src/config/constants.py.
+You need to set AREAS, NUMBER_OF_ROWS, IO_LIST_COLUMNS, ACTIVE_TAGNAME_TEMPLATE, and ACTIVE_DEVICE_DEFINITIONS. Default values are pre-specified.
+You can add new types of AREAS, IO_LIST_COLUMNS, and TAGNAME_TEMPLATES as needed.
+To create new device definitions, you need to create a new device_definitions_4.py file in src/config. Use the existing files as templates.
 
-Run the generator with default settings:
+Run the generator with configured settings:
 
 ```
 python main.py
