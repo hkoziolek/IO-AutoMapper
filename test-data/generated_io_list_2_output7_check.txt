@@ -1,0 +1,29 @@
+=== GROUND TRUTH COMPARISON RESULTS ===
+
+Signal Data Type: 300/300 (100.0%)
+Function Block Type: 300/300 (100.0%)
+Function Block Parameter: 279/300 (93.0%)
+
+=== DETAILED MISMATCH INFORMATION ===
+
+Ground truth mismatch: Function Block Parameter 'n/a' in line 23 does not match output 'Activate'.
+Ground truth mismatch: Function Block Parameter 'Activate' in line 56 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 62 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 81 does not match output 'RemoteCtrlEnabled'.
+Ground truth mismatch: Function Block Parameter 'FeedbackActivated' in line 82 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 83 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'Activate' in line 87 does not match output 'Deactivate'.
+Ground truth mismatch: Function Block Parameter 'Activate' in line 91 does not match output 'Deactivate'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 118 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 136 does not match output 'RemoteCtrlEnabled'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 153 does not match output 'RemoteCtrlEnabled'.
+Ground truth mismatch: Function Block Parameter 'FeedbackActivated' in line 154 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 155 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 172 does not match output 'FeedbackActivated'.
+Ground truth mismatch: Function Block Parameter 'AlarmOverload' in line 180 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 205 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 222 does not match output 'Deactivate'.
+Ground truth mismatch: Function Block Parameter 'FeedbackActivated' in line 223 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmOverload' in line 225 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 264 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 284 does not match output 'n/a'.

@@ -1,0 +1,21 @@
+=== GROUND TRUTH COMPARISON RESULTS ===
+
+Signal Data Type: 298/300 (99.33%)
+Function Block Type: 300/300 (100.0%)
+Function Block Parameter: 289/300 (96.33%)
+
+=== DETAILED MISMATCH INFORMATION ===
+
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 85 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 114 does not match output 'FeedbackActivated'.
+Ground truth mismatch: Signal Data Type DigitalIn in line 136 does not match output DigitalIn_FB.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 136 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 162 does not match output 'Deactivate'.
+Ground truth mismatch: Signal Data Type DigitalIn in line 176 does not match output DigitalIn_FB.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 176 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'AlarmGeneralFault' in line 184 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 192 does not match output 'FeedbackControlSignal'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 223 does not match output 'FeedbackActivated'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 235 does not match output 'FeedbackControlSignal'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 265 does not match output 'FeedbackControlSignal'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 288 does not match output 'FeedbackActivated'.

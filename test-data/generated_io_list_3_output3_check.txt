@@ -1,0 +1,13 @@
+=== GROUND TRUTH COMPARISON RESULTS ===
+
+Signal Data Type: 300/300 (100.0%)
+Function Block Type: 300/300 (100.0%)
+Function Block Parameter: 295/300 (98.33%)
+
+=== DETAILED MISMATCH INFORMATION ===
+
+Ground truth mismatch: Function Block Parameter 'n/a' in line 87 does not match output 'FeedbackActivated'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 176 does not match output 'FeedbackActivated'.
+Ground truth mismatch: Function Block Parameter 'RemoteCtrlEnabled' in line 247 does not match output 'n/a'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 282 does not match output 'FeedbackActivated'.
+Ground truth mismatch: Function Block Parameter 'n/a' in line 284 does not match output 'FeedbackActivated'.
